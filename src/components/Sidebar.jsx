@@ -31,7 +31,6 @@ function Sidebar() {
 
   return (
     <div className="w-[100%] h-full p-2 flex-col gap-2 text-white hidden lg:flex">
-      <img className="w-full h-12 object-cover rounded mt-4" src= "src\assets\img212.png" alt="Description of Image" />
       <div className="bg-[#121212] h-[15%] rounded flex flex-col justify-around">
         <div
           onClick={() => navigate("/")}
